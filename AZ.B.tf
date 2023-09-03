@@ -29,9 +29,10 @@ resource "aws_subnet" "sn-app-B" {
 }
 
 resource "aws_subnet" "sn-web-B" {
-  vpc_id            = aws_vpc.a4l-vpc1.id
-  cidr_block        = "10.16.112.0/20"
-  availability_zone = "us-east-1b"
+  vpc_id                  = aws_vpc.a4l-vpc1.id
+  cidr_block              = "10.16.112.0/20"
+  availability_zone       = "us-east-1b"
+  map_public_ip_on_launch = true
 
 
   ipv6_cidr_block                 = cidrsubnet(aws_vpc.a4l-vpc1.ipv6_cidr_block, 8, 7)
