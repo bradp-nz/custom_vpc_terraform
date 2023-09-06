@@ -4,7 +4,8 @@ Project part one:
 - 12 subnets (IPv4 and IPv6) configured for the database, application, web, and reserved ranges.  
 
 Project part two:  
-- Public subnets assigned towards the web environments for incoming/outgoing traffic - while keeping the reserved, database, and application environments within a private subnet for outgoing traffic only (03/09).  
+- Public subnets assigned towards the web environment for incoming/outgoing traffic.  
+- Private subnets assigned towards the reserved, database, and application environments for outgoing traffic only (03/09).  
 - Added internet gateway and a route table with the necessary route table associations (03/09).  
 - Cleaned up code & added variables/tags (04/09).  
 - Added private internet connection capabilities via the NAT gateway along with the required elastic IP's and route tables for outgoing traffic only (05/09).  
