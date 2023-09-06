@@ -9,4 +9,4 @@ Project part two:
 - Cleaned up code & added variables/tags (04/09).  
 - Added private internet connection capabilities via the nat gateway along with the required elastic ip's and route tables for outgoing traffic only (05/09).  
 - Added private route table connections to allow for the database, reserved, and application environments to allow only outbound traffic (06/09).
-- Testing completed internally within each environment to confirm that outbound is functioning via the NAT gateway 06/09.
+- Testing completed internally within the private environments to confirm that outbound traffic is functioning via the NAT gateway (06/09).
