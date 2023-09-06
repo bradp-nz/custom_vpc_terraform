@@ -8,6 +8,6 @@ Project part two:
 - Private subnets assigned towards the reserved, database, and application environments for outgoing traffic only.  
 - Added an internet gateway and a public route table for the web environment.  
 - Cleaned up code & added variables/tags.  
-- Added private internet connection capabilities via the NAT gateway along with the required elastic IP's and route tables for outgoing traffic only.  
+- Added private internet connection capabilities via the NAT gateway along with the required elastic IP's.  
 - Added private route table connections to allow for the database, reserved, and application environments to allow only outbound traffic.
 - Testing completed internally within the private environments to confirm that outbound traffic is functioning via the NAT gateway.
