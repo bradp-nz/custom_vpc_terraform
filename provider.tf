@@ -1,5 +1,5 @@
 #AWS provider
 provider "aws" {
-  region  = var.availability_zone
+  region  = var.region
   profile = var.profile
 }
